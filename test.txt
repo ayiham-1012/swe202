@@ -1,0 +1,14 @@
+echo "# swe202" >> README.md       // lagbena
+git init                           // [initialize] git starts doing smth, creates .git
+git add README.md                  // add = "start tracking"
+git add .                          // add = "start tracking"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ayiham-1012/swe202.git
+git push -u origin main
+
+
+# For later on
+git add .       // add = "add all files to commit"
+git commit      // commit = "record"
+git push        // push = "upload"
