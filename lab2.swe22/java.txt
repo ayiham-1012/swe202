@@ -1,0 +1,5 @@
+javac filename.java
+java filename
+
+1. might have to install JDK
+2. if using vscode, then install "vscjava.vscode-java-pack" Extension pack for java, 
