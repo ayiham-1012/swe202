@@ -1,4 +1,4 @@
-public class Teacher {
+public class Teacher {          // q47
     String name;
     String abb;
     Course [] course = new Course[5];
@@ -18,14 +18,16 @@ public class Teacher {
         System.err.println("Initial: "+abb);
         System.err.println("List of courses:");
         for(int i = 0; i < count; i++)
-            System.err.println(course[i].name);
+            System.err.println(course[i].getName());
     }
 }
 
 class Course {
-    String name;
+    private String name;
 
     Course(String n){
         name = n;
     }
+
+    String getName() {return name;}
 }

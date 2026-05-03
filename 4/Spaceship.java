@@ -14,13 +14,16 @@ public class Spaceship {
     }    
     public void loadCargo(Cargo element){
         e = element;
-        if(e.weight > capLeft)
-            System.out.println("Warning: Unable to load "+e.name+" inside "+name+". Exceeds capacity by "+capLeft);
+        String eName = e.getName();
+        int weight  = e.getWeight();
+
+        if(weight > capLeft)
+            System.out.println("Warning: Unable to load "+eName+" inside "+this.name+". Exceeds capacity by "+capLeft);
         else {
-            cargoEle[count] = e.name;
+            cargoEle[count] = eName;
             count++;
-            capLeft -= e.weight; 
-            weight += e.weight;
+            capLeft -= weight; 
+            weight += weight;
         }
     }
     public void displayDetails(){
@@ -34,13 +37,16 @@ public class Spaceship {
     }
 }
 
+// Problem asked these two variables to be private
 class Cargo {
-    String name;
-    int weight;
+    private String name;
+    private int weight;
     
     Cargo (String n, int c){
         name = n;
         weight = c;
     }
 
+    String getName()   {return name;}
+    int    getWeight() {return weight;}
 }

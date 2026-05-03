@@ -1,4 +1,4 @@
-public class Cat {          // a2q2
+public class Cat {          // q21
 
     String color = "White";
     String action = "sitting";

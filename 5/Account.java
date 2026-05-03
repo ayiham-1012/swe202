@@ -1,4 +1,4 @@
-public class Account {
+public class Account {          // q52
     static String bankName = "Badda Bank";
     static int count = 0;
     static double totalBalance = 0.0;

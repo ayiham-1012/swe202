@@ -1,5 +1,4 @@
-
-public class Member {
+public class Member {           // q49B
     private String name;
     private String branch;
     private boolean isActive = false;

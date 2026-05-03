@@ -1,4 +1,4 @@
-public class Student2 {
+public class Student2 {     // q31
     String name;
     String dept = "CSE";
     double cgpa = 0.0;
