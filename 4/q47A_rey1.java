@@ -1,4 +1,4 @@
-public class q47_rey1 {
+public class q47A_rey1 {
     public static void main(String [] args)
     {
         Item i1 = new Item("Carrots", 79.99);

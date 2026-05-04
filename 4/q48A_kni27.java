@@ -36,12 +36,9 @@ public class q48A_kni27 {
 this is also, assignment 4 classwork 2 (a4c2)
 
 
-A new teacher has been
-created
-A new teacher has been
-created
-A new teacher has been
-created
+A new teacher has been created
+A new teacher has been created
+A new teacher has been created
 1========================
 Name: Matin Saad Abdullah
 Initial: MSA

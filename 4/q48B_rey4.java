@@ -1,4 +1,4 @@
-public class q48B_rey2 {
+public class q48B_rey4 {
     public static void main(String[] args) {
         Product p1 = new Product("Keyboard", 50.0);
         Product p2 = new Product("Monitor", 360.0);
