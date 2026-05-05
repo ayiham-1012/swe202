@@ -48,3 +48,14 @@ git push
 git log
 git clone
 git pull
+
+
+
+
+# merging 
+git add .
+git commit
+git pull --no-rebase
+// Manually fix the merges
+git add .
+git commit -m "Manually fixed the merge conflics 💁‍♀️"

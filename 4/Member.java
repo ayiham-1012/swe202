@@ -1,5 +1,5 @@
 
-public class Member {           // adu28
+public class Member {           // q49B_adu14
     private String name;        // 1 piece per object/instance
     private String branch;
     private boolean isActive = false;

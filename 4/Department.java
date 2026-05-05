@@ -1,17 +1,17 @@
-public class Department {
-    String name;
+public class Department {       // q41
+    String dep;
     int studs;
 
     Department(String n, int c) {
-        name = n;
+        dep = n;
         studs = c;
     }
     public void mergeStudents(Department d){
-        System.out.println("Students of "+d.name+" are merged with students of "+name);
+        System.out.println("Students of "+d.dep+" are merged with students of "+dep);
         studs += d.studs;
     }
     public void info() {
-        System.out.println("Name: " + name);
+        System.out.println("Name: " + dep);
         System.out.println("Total Students: " + studs);
     }
     public void addStudents(int arr[]){

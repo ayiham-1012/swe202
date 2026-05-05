@@ -1,4 +1,4 @@
-public class Assignment {       // a2q2B
+public class Assignment {       // q23
     int tasks = 0;
     String difficulty = null;
     boolean submission = false;

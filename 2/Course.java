@@ -1,4 +1,4 @@
-public class Course {           // a2q3
+public class Course {           // q24
     String name;
     String code;
     int credit;

@@ -1,4 +1,4 @@
-public class BankAccount {
+public class BankAccount {      // q32
     int ac = 2324;
     String type = "Salary";
 

@@ -1,4 +1,4 @@
-public class Dog2 
+public class Dog2               // q28
 {
     String name = null;
     String color = null;
