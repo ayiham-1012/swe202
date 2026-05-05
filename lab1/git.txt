@@ -22,6 +22,12 @@ git config --global core.editor "code --wait"
 
 
 
+# okay
+git clone -b 57-Lamiya https://github.com/Zenhance/SWE-4202-24 swe24
+git switch 25-Nipun
+
+
+
 git init
 git add .
 git commit

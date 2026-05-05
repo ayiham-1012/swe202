@@ -1,6 +1,6 @@
 
-public class Member {
-    private String name;
+public class Member {           // adu28
+    private String name;        // 1 piece per object/instance
     private String branch;
     private boolean isActive = false;
 
@@ -9,22 +9,22 @@ public class Member {
     public boolean getIsActive() {return isActive;}
 
 
-    Member(String s, String b){
+    Member(String s, String b) {
         name = s;
         branch = b;  
     }
 
-    public void showDetails(){
+    public void showDetails() {
         System.out.println("Member Name: "+ name);
         System.out.println("Home Branch: "+ branch);
         System.out.println("Membership Active? "+isActive);
     }
     
-    public void activateMembership(){
+    public void activateMembership() {
         isActive = true;
     }
 
-    public void updateBranch(String s){
+    public void updateBranch(String s) {
         branch = s;
     }
 }
