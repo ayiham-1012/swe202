@@ -30,11 +30,11 @@ Alice
 Course: CSE110 
 Marks: 0.0
 2.===========
-setMark(): Successfully updated marks to 88.5
+setMark(): 88.5
 3.===========
-setMark(): 110.0 is invalid! Marks must be between 0 and 100
+setMark(): 110.0 is invalid! [0-100]
 4.===========
-setMark(): -10.5 is invalid! Marks cannot be negative
+setMark(): -10.5 is invalid! [0-100]
 5.===========
 Alice
 Course: CSE110
