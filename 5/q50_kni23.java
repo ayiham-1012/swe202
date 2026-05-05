@@ -1,4 +1,4 @@
-public class q43_kni23 {        // kora hoy nai
+public class q50_kni23 {        // kora hoy nai
     public static void main(String args[]){
         Cart c1 = new Cart();
         Cart c2 = new Cart();
@@ -27,6 +27,8 @@ public class q43_kni23 {        // kora hoy nai
 
 
 /*
+
+kni23
 
 1------------
 Cart Items:

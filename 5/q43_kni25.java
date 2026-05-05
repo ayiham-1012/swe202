@@ -1,4 +1,4 @@
-public class q45_kni25 {        // kora hoy nai
+public class q43_kni25 {        // kora hoy nai
     public static void main(String[] args){
         Shop s1 = new Shop("Agora", 4);
         Shop s2 = new Shop(3);
@@ -31,6 +31,8 @@ public class q45_kni25 {        // kora hoy nai
 
 
 /*
+
+Max Items: 4
 
 Agora shop created!
 Mega shop created!

@@ -1,4 +1,4 @@
-public class q47C_rey3 {
+public class q45B_rey3 {
     public static void main(String[] args) {
         Student s1 = new Student("Alice", "CSE111");
 

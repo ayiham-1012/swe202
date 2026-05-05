@@ -1,11 +1,11 @@
-public class q47A_rey1 {
+public class q44A_rey1 {
     public static void main(String [] args)
     {
         Item i1 = new Item("Carrots", 79.99);
         Item i2 = new Item("Broccolis", 120.99);
         Item i3 = new Item("Water", 15);
 
-        ShoppingCart c1 = new ShoppingCart(5);
+        ShoppingCart c1 = new ShoppingCart(5);  // PascalCase
         c1.addItem(i1);
         c1.addItem(i2); 
         c1.addItem(i3); 

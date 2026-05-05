@@ -1,4 +1,4 @@
-public class q46_kni26 {            // Kora Hoy Nai
+public class q43_kni26 {            // Kora Hoy Nai
     public static void main(String[] args) {
         Player ben = new Player("Ben", 10);
         System.out.println("======1======");

@@ -1,4 +1,4 @@
-public class q44_kni24 {
+public class q44B_kni24 {
     public static void main(String args []){
         Taxi2 t1 = new Taxi2("MX8190", "Gulshan");
         Passenger p1 = new Passenger("Ali", 20);
