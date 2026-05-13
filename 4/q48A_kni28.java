@@ -1,4 +1,4 @@
-public class q49A_kni28 {       // Kora Hoy Nai
+public class q48A_kni28 {       // Kora Hoy Nai
     public static void main(String[] args) {
         BracuStudent st1 = new BracuStudent("Afif", "Mirpur");
         System.out.println("1===============");

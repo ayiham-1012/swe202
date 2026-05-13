@@ -2,7 +2,7 @@ public class Taxi2 {
     String number;
     String route;
 
-    Passenger[] arr = new Passenger[5];
+    Passenger2[] arr = new Passenger2[5];
     int c = 0;
 
     Taxi2(String n, String r){
@@ -16,12 +16,12 @@ public class Taxi2 {
         System.out.println("Passenger List: ");
         for (int i = 0; i < c; i++) 
         {
-            Passenger k = arr[i];
+            Passenger2 k = arr[i];
             k.fn1();
         }
     }
 
-    public void addPassenger(Passenger p) {
+    public void addPassenger(Passenger2 p) {
         if (c >= 5) {
             System.out.println("not enough space");
             return;
@@ -32,11 +32,11 @@ public class Taxi2 {
 }
 
 /* JAVA Says: 1 "class/blueprint" can be public per file */
-class Passenger {
+class Passenger2 {
     String name;
     int age;
 
-    Passenger(String n, int a) {
+    Passenger2(String n, int a) {
         this.name = n;
         this.age = a;
     }

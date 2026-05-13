@@ -1,6 +1,6 @@
 public class q45B_rey3 {
     public static void main(String[] args) {
-        Student s1 = new Student("Alice", "CSE111");
+        Student2 s1 = new Student2("Alice", "CSE111");
 
         System.out.println("1.===========");
         s1.postFinalGrade(); 

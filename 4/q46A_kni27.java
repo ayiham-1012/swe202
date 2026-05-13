@@ -1,4 +1,4 @@
-public class q48A_kni27 {
+public class q46A_kni27 {
     public static void main(String [] args){
         Teacher t1 = new Teacher("Matin Saad Abdullah","MSA");
         Teacher t2 = new Teacher("Mumit Khan","MMK");
