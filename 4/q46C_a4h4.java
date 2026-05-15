@@ -1,4 +1,4 @@
-public class q48C_a4h4 {
+public class q46C_a4h4 {
     public static void main(String[] args) {
         Spaceship falcon = new Spaceship("Falcon", 50000);
         Spaceship apollo = new Spaceship("Apollo", 100000);

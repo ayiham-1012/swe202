@@ -1,4 +1,4 @@
-public class q49B_adu14  {
+public class q48B_adu14  {
     public static void main(String[] args) {
         Member m1 = new Member("Luffy", "Dressrosa");
         System.out.println("1===============");

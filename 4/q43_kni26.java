@@ -1,6 +1,7 @@
 public class q43_kni26 {            // Kora Hoy Nai
     public static void main(String[] args) {
-        Player ben = new Player("Ben", 10);
+        Player ben = new Player("Ben", 10); // ben        holds memory address 
+        int x = 10;                         // x does not hold  memory address
         System.out.println("======1======");
         ben.viewInfo();
         System.out.println("======2======");

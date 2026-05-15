@@ -1,4 +1,4 @@
-public class q49C_a4h3 {    // Kora Hoy Nai
+public class q49A_a4h3 {    // Kora Hoy Nai
     public static void main(String[] args) {
         Student rakib = new Student("Rakib", 12301455, "CSE");
         Student roy = new Student("Roy", 12501345, "CS");

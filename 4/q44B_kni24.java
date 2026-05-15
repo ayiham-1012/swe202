@@ -1,9 +1,9 @@
 public class q44B_kni24 {
     public static void main(String args []){
         Taxi2 t1 = new Taxi2("MX8190", "Gulshan");
-        Passenger p1 = new Passenger("Ali", 20);
-        Passenger p2 = new Passenger("Mifta", 45);
-        Passenger p3 = new Passenger("Marzan", 32);
+        Passenger2 p1 = new Passenger2("Ali", 20);
+        Passenger2 p2 = new Passenger2("Mifta", 45);
+        Passenger2 p3 = new Passenger2("Marzan", 32);
         System.out.println("1------------");
         t1.showTaxi();
         System.out.println("2------------");

@@ -1,4 +1,4 @@
-public class q49D_adu17 {           // Kora Hoy Nai
+public class q49B_adu17 {           // Kora Hoy Nai
     public static void main(String[] args) {
         Vaccine astra = new Vaccine("AstraZeneca", "UK", 60);
         Vaccine modr = new Vaccine("Moderna", "UK", 30);

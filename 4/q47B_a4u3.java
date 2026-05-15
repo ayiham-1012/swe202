@@ -1,4 +1,4 @@
-public class q48E_a4u3 {
+public class q47B_a4u3 {
     public static void main(String[] args){
         Movie m1 = new Movie("Avengers", "Sci-fi", "1:59:08");
         Movie m2 = new Movie("Lord of the Rings", "Fantasy", "2:58:05");
