@@ -70,7 +70,7 @@ Squirtle: 70.0 points
 Eevee: 60.0 points
 Average of HP: 65.0
 8---------------------
-Battle Info
+Battle Info:
 Ash's HP average: 60.0
 Gary's HP average: 65.0
 Gary wins

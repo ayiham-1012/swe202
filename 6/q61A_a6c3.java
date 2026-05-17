@@ -33,6 +33,25 @@ class Vehicle {
         return "("+ x + ","+ y + ")";
     }
 }
+
+class Vehicle2010 extends Vehicle {
+    void moveLowerLeft(){
+        moveLeft();
+        moveDown();
+    }
+    void moveLowerRight(){
+        moveRight();
+        moveDown();
+    }
+    void moveUpperLeft(){
+        moveLeft();
+        moveUp();
+    }
+    void moveUpperRight(){
+        moveRight();
+        moveUp();
+    }
+}
   
 
 /*

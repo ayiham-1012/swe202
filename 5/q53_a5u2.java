@@ -1,21 +1,21 @@
-public class q54A_a5u2 {        // Kora Hoy nai
+public class q53_a5u2 {        // Kora Hoy nai
     public static void main(String[] args) {
-        Student.printDetails();
+        Student3.printDetails();
         System.out.println("--------------------");
-        Student mikasa = new Student("Mikasa", 3.75);
+        Student3 mikasa = new Student3("Mikasa", 3.75);
         mikasa.individualDetail();
         System.out.println("--------------------");
-        Student.printDetails();
+        Student3.printDetails();
         System.out.println("--------------------");
-        Student harry = new Student("Harry", 2.5, "Charms");
+        Student3 harry = new Student3("Harry", 2.5, "Charms");
         harry.individualDetail();
         System.out.println("--------------------");
-        Student.printDetails();
+        Student3.printDetails();
         System.out.println("--------------------");
-        Student levi = Student.createStudent("Levi", 3.33);
+        Student3 levi = Student3.createStudent("Levi", 3.33);
         levi.individualDetail();
         System.out.println("--------------------");
-        Student.printDetails();
+        Student3.printDetails();
     }
 }
 

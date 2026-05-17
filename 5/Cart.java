@@ -1,5 +1,4 @@
-public class Cart {
-
+public class Cart {     // kni23
     String [] item = new String[10];
     int [] amount = new int[10];
     int count = 0;
@@ -28,6 +27,8 @@ public class Cart {
     }
 
     public void remove(int k) {
+        if (c == 0) return;
+
         item[k]         = item[count-1];
         amount[k]       = amount[count-1];
         item[count-1]   = null;
@@ -35,13 +36,13 @@ public class Cart {
         count--;
     }
 
-    public void transferItem (Cart c, String s) {    // running on c1
+    public void transferItem (Cart target, String s) {    // running on c1
         int k = this.find(s);
         if (k == -1) {
             System.out.println("Could not find " + s);
         }
         else {
-            c.storeProduct(s, this.amount[k]);
+            target.storeProduct(s, this.amount[k]);
             this.remove(k);
             System.out.println("Item transferred successfully.");
         }

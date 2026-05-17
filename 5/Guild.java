@@ -28,7 +28,7 @@ public class Guild {
         int k = -1;
         for (int i = 0; i < count; i++) {
             if(heroName.equals(heroes[i].getName())){
-                return k;
+                return i;
             }
         }
         return k;

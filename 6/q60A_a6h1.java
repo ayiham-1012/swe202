@@ -1,13 +1,15 @@
 public class q60A_a6h1 {
     public static void main(String args[]){
         Animal a1 = new Animal();
+        a1.legs = 2;
         System.out.println("1-------------");
         a1.details();
         System.out.println("2-------------");
         Cow c1  = new Cow();
         c1.name = "Pammy";
+        c1.legs = 2;
         System.out.println("3-------------");
-        System.out.println("Name: " + c1.getName());
+        System.out.println("Name: " + c1.name);
         c1.details();
         System.out.println("4-------------");
         c1.updateSound("Moo");
@@ -16,7 +18,14 @@ public class q60A_a6h1 {
     }
 }
 
-class Animal { 
+
+
+
+
+
+
+
+class Animal {                  // Parent BluePrint
     public int legs = 4;
     public String sound = "Not defined";
     
@@ -26,8 +35,17 @@ class Animal {
     }
 }
 
-class Cow extends Animal {
-    // Your Code Here
+class Cow extends Animal {      // Child BluePrint
+    String name;
+
+    Cow() {
+        super();
+        System.out.println("The cow says hello!");
+    }
+
+    void updateSound(String s) {
+        sound = s;
+    }
 }
 
 

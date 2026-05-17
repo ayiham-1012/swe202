@@ -25,7 +25,11 @@ class Shape {
 }
 
 class Circle extends Shape {
-
+    int radius;
+    public void area(){
+        double a = radius * radius * 3.14;
+        System.out.println("Area of " + color + " " + name + ": " + a);
+    }
 }
 
 

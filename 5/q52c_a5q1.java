@@ -1,4 +1,4 @@
-public class a5q1 {
+public class q52c_a5q1 {
     public static void main(String[] args) {
         System.out.print("All accounts belong to ");
         System.out.println(Account.bankName);
@@ -25,6 +25,7 @@ public class a5q1 {
         a2.setBalance(500);
         System.out.println("8---------------------------------");
         a2.printInfo();
+        
         System.out.println("9---------------------------------");
         System.out.print("All accounts belong to ");
         System.out.println(Account.bankName);
