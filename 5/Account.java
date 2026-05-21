@@ -9,6 +9,7 @@ public class Account {          // q52
     String addr;
     private double bal;
 
+    // Without calling constructor, can't create object
     Account(String n, String a) {
         this.name = n;
         this.addr = a;

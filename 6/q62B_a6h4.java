@@ -21,6 +21,24 @@ class RealNumber {
     }
 }
 
+class ComplexNumber extends RealNumber {
+    double complex = 1.0;
+
+    ComplexNumber(){
+        super(1.0);
+    }
+    ComplexNumber(double r, double c){
+        super(r);
+        complex = c;
+    }
+
+    void details(){
+        System.out.println("RealPart: "+realValue);
+        System.out.println("ImaginaryPart: "+complex);
+    }
+
+}
+
 
 /*
 

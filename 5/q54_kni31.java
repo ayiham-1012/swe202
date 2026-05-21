@@ -1,4 +1,4 @@
-public class kni31 {            // Kora Hoy Nai
+public class q54_kni31 {            // Kora Hoy Nai
     public static void main(String args[]){
         Employee.allEmployeeInfo();
         System.out.println("1-----------");
@@ -28,13 +28,13 @@ public class kni31 {            // Kora Hoy Nai
 /*
 
 Total Employee: 0
-Employee List:
+Employee List: 
 1-----------
 Name: Ashish
 ID: 23
 2-----------
 Total Employee: 1
-Employee List:
+Employee List: 
 Name: Ashish
 ID: 23
 3-----------

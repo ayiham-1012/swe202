@@ -27,8 +27,8 @@ Total Characters: 0
 Kids: 0
 Teens: 0
 Adults: 0
-Average Health: 0
-Strongest Character: None
+Average Health: 0.0
+Strongest Character: None (Health 0)
 ---------1-----------
 ID: 1, Name: Twelve
 Group: Kid
@@ -43,8 +43,7 @@ Kids: 2
 Teens: 0
 Adults: 0
 Average Health: 75.0
-Strongest Character: 
-Twelve (Health 100)
+Strongest Character: Twelve (Health 100)
 ---------4-----------
 ID: 3, Name: Reeve
 Group: Teen
@@ -59,8 +58,7 @@ Kids: 2
 Teens: 1
 Adults: 1
 Average Health: 85.0
-Strongest Character: 
-Chopper (Health 120)
+Strongest Character: Chopper (Health 120)
 
 
 */

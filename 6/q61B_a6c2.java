@@ -12,7 +12,7 @@ public class q61B_a6c2 {
 }
 
 
-public class Student {
+class Student {         // Parent BluePrint
     private String name = "Just a Student";
     private String department = "no idea";
     public void setDepartment(String dpt) {
@@ -22,9 +22,22 @@ public class Student {
         this.name = name;
     }
     public void details() {
-        System.out.println("Name : " + name + " Department: " + department);
+        System.out.println("Name: " + name + " Department: " + department);
     }
 }
+
+class SWEStudent extends Student {      // Child BluePrint
+    SWEStudent() {
+        this("idk");
+    }
+    SWEStudent(String n) {
+        super();
+        super.setName(n);
+        super.setDepartment("SWE");
+    }
+}
+
+
 
 
 /*
