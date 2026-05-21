@@ -1,4 +1,4 @@
-public class q46C_a4h4 {
+public class q46_a4h4 {
     public static void main(String[] args) {
         Spaceship falcon = new Spaceship("Falcon", 50000);
         Spaceship apollo = new Spaceship("Apollo", 100000);
@@ -27,16 +27,26 @@ public class q46C_a4h4 {
     }
 }
 
+
+
 /*
 
-- Spaceship: This class represents a spaceship. Each spaceship has a name and a capacity (the maximum weight it can carry).
-- Cargo: This class represents a piece of cargo. Each cargo item has a name and a weight. 
-    - Both attributes should be private which means they cannot be accessed directly from outside of the class.
+- Spaceship: 
+    - This class represents a spaceship. 
+    - Each spaceship has a name 
+    - and a capacity (the maximum weight it can carry).
+- Cargo: 
+    - This class represents a piece of cargo. 
+    - Each cargo item has a name and a weight. 
+    - Both attributes should be private 
+        - which means they cannot be accessed directly from outside of the class.
 - A Spaceship contains Cargo.
-    - That means each spaceship can carry multiple cargo items, but the total weight of the cargo cannot exceed the spaceship's capacity.
+    - That means each spaceship can carry multiple cargo items, 
+        - but the total weight of the cargo cannot exceed the spaceship's capacity.
     - Also, the maximum number of cargo items is 100.
 
-Your task is to design the Spaceship and Cargo class with necessary properties so that the given output is produced for the provided driver code.
+Your task is to design the Spaceship and Cargo class 
+with necessary properties so that the given output is produced for the provided driver code.
 
 1.===========
 2.===========
