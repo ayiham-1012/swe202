@@ -25,6 +25,38 @@ class Product {
     }
 }
 
+class Book extends Product {
+    String isbn;
+    String p;
+
+    Book(int id, String title, int price, String isbn, String p){
+        super(id, title, price);
+        this.isbn  = isbn;
+        this.p = p;
+    }
+    
+    public void printDetail(){
+        System.out.println(getIdTitlePrice() + "ISBN: " + isbn + "\nPublisher: " + p); 
+    }
+}
+
+class CD extends Product{
+    String band;
+    int dur;
+    String genre;
+
+    CD(int id, String title, int price, String band, int dur, String genre){
+        super(id, title, price);
+        this.band = band;
+        this.dur = dur;
+        this.genre = genre;
+    }
+
+    public void printDetail(){
+        System.out.println(getIdTitlePrice() + "Band: " + band + "\nDuration: " + dur + " minutes\nGenre: " + genre);
+    }
+}
+
 
 /*
 

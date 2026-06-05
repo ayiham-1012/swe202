@@ -1,10 +1,11 @@
 class Product {
-    public static int count;
+    public static int count = 0;
     public String name;
     public int price;
     public Product(String n, int p) {
         name = n;
         price = p;
+        count++;
     }
     public void details() {
         System.out.println("Name: "+name);

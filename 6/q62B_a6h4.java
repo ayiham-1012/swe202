@@ -33,7 +33,7 @@ class ComplexNumber extends RealNumber {
     }
 
     void details(){
-        System.out.println("RealPart: "+realValue);
+        System.out.println(super.getReal());
         System.out.println("ImaginaryPart: "+complex);
     }
 

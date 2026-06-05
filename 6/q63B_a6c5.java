@@ -12,7 +12,9 @@ public class q63B_a6c5 {
         cat.makeSound();
     }
 }
-public class Animal {
+
+
+class Animal {
     public String name;
     public int age;
     public String color;
@@ -23,6 +25,37 @@ public class Animal {
     }
     public String info() {
         return "Name: " + name + "\nAge: " + age + "\nColor:" + color +"\n";
+    }
+}
+
+class Dog extends Animal{
+    String breed;
+    Dog(String name, int age, String color, String breed){
+        super(name, age, color);
+        this.breed = breed;
+    }
+
+    public String dogInfo(){
+        return info() + "Breed: " + breed + "\n"; 
+    }
+
+    public String makeSound(){
+        return color+" color "+name+" is braking";
+    }
+}
+
+class Cat extends Animal{
+    String breed;
+    Cat(String name, int age, String color, String breed){
+        super(name, age, color);
+        this.breed = breed;
+    }
+
+    public String catInfo(){
+        return info() + "Breed: " + breed + "\n"; 
+    }
+    public String makeSound(){
+        return color+" color "+name+" is braking";
     }
 }
 

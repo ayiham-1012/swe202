@@ -27,7 +27,7 @@ class CheckingAccount extends Account {
     static int count = 0;
 
     CheckingAccount() {
-        super(0.0);
+        this(0.0);
     }
     CheckingAccount(double b) {
         super(b);

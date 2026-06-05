@@ -25,8 +25,52 @@ class SportsPerson {
     }
 }
 
+class Player extends SportsPerson{
+    int goal;
+    int matches;
+    double ratio;
+
+    Player(String teamName, String name, String role, int goal, int matches){
+        super(teamName, name, role);
+        super.earningPerMatch = (goal * 1000) + (matches * 10);
+        this.goal = goal;
+        this.matches = matches;
+        this.ratio = 0.0;
+    }
 
 
+    public void calculateRatio(){
+        ratio = (double)goal/matches;
+    }
+
+    public void printDetails(){
+        System.out.println(getNameTeam());
+        System.out.println("Team Role: "+role);
+        System.out.println("Total Goal: "+goal+", Total played: "+matches);
+        System.out.println("Goal Ratio: "+ratio);
+        System.out.println("Match Earning: "+earningPerMatch);
+    }
+}
+
+class Manager extends SportsPerson{
+    int wins;
+    Manager(String teamName, String name, String role, int wins){
+        super(teamName, name, role);
+        super.earningPerMatch = wins *1000;
+        this.wins = wins;
+
+    }
+
+    public void printDetails(){
+        System.out.println(getNameTeam());
+        System.out.println("Team Role: "+role);
+        System.out.println("Total win: "+wins);
+        System.out.println("Match Earning: "+earningPerMatch);
+    }
+}
+
+
+// Inheritance 
 
 
 /*
@@ -41,8 +85,7 @@ Total Goal: 25, Total Played: 32
 Goal Ratio: 0.78
 Match Earning: 25320K
 ----------------
-Name: Zidane, Team Name: Real
-Madrid
+Name: Zidane, Team Name: Real Madrid
 Team Role: Manager
 Total Win: 25
 Match Earning: 25000K

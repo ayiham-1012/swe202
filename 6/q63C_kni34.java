@@ -35,6 +35,17 @@ public class q63C_kni34 {
     }
 }
 
+class  Book extends Product {
+    int isbn;
+    Book(String name, int price, int isbn){
+        super(name, price);
+        this.isbn = isbn;
+    }
+    public void increasePrice(int p){
+        price += p;
+        System.out.println("Price has increased");
+    }
+}
 
 
 /*

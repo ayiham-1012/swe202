@@ -41,6 +41,45 @@ class Student {
     }
 }
 
+class CSEStudent extends Student{
+    static int count = 0;
+    static String [] course = {"CSE110", "CSE111", "CSE220", "CSE221"};    // probably did "not"
+    
+    CSEStudent(String n, int i){
+        super(n,i);
+        count++;
+    }
+
+    public static void details(){
+        System.out.println("Total CSE Students: " + count);
+        System.out.println("Available Lab Based Courses:");
+        System.out.println("CSE110 CSE111 CSE220 CSE221");
+    }
+
+    public static int find(String c) {
+        for(int i = 0; i < 4; i++){
+            if(c.equals(course[i])){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public void addLabBasedCourse(String c){
+        int k = find(c);
+        if (k == -1)
+            System.out.println("It is not a lab based course!");
+        else 
+            courses = courses + c + " ";
+    }
+
+    public void info(){
+        System.out.println("Name: " + name);
+        System.out.println("ID: " + id);
+        System.out.println("Courses: " + courses);
+    }
+}
+
 
 /*
 
