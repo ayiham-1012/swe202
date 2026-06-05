@@ -14,6 +14,8 @@ public class Player {
         this(n, 100);
     }
 
+
+    // Method OverLoading
     public void defeatVillain(String n, int h){
         if (hp >= h){
             System.out.println("defeated "+n);
@@ -24,6 +26,7 @@ public class Player {
         else
             System.out.println("failed to defeat "+n);
     }
+
     public void defeatVillain(char b, String n, int h){
         int boost = b - '0';
         this.hp *= boost;
@@ -31,9 +34,15 @@ public class Player {
 
         defeatVillain(n, h);
     }
+
+    // ReUsing superior ones
     public void defeatVillain(Player p){
         defeatVillain(p.name, p.hp);
     }
+
+
+
+
     public void viewInfo(){
         System.out.println("Player name: " + name);
         System.out.println("Current HP: " + hp);
