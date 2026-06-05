@@ -14,18 +14,20 @@ class SportsPerson {
     private String name;
     public String role;
     public double earningPerMatch;
+    
     public SportsPerson(String teamName, String name, String role) {
         this.team = teamName;
         this.name = name;
         this.role = role;
         this.earningPerMatch = 0;
     }
+
     public String getNameTeam() {
         return "Name: " + name + ", Team Name: " + team;
     }
 }
 
-class Player extends SportsPerson{
+class Player extends SportsPerson {
     int goal;
     int matches;
     double ratio;
@@ -39,11 +41,11 @@ class Player extends SportsPerson{
     }
 
 
-    public void calculateRatio(){
+    public void calculateRatio() {
         ratio = (double)goal/matches;
     }
 
-    public void printDetails(){
+    public void printDetails() {
         System.out.println(getNameTeam());
         System.out.println("Team Role: "+role);
         System.out.println("Total Goal: "+goal+", Total played: "+matches);
@@ -52,8 +54,9 @@ class Player extends SportsPerson{
     }
 }
 
-class Manager extends SportsPerson{
+class Manager extends SportsPerson {
     int wins;
+
     Manager(String teamName, String name, String role, int wins){
         super(teamName, name, role);
         super.earningPerMatch = wins *1000;
@@ -61,7 +64,7 @@ class Manager extends SportsPerson{
 
     }
 
-    public void printDetails(){
+    public void printDetails() {
         System.out.println(getNameTeam());
         System.out.println("Team Role: "+role);
         System.out.println("Total win: "+wins);
@@ -70,10 +73,9 @@ class Manager extends SportsPerson{
 }
 
 
-// Inheritance 
-
-
 /*
+
+Exercise
 
 To calculate the match earnings use the following formula:
 - Player: (total_goal * 1000) + (total_match * 10)

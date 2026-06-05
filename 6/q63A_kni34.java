@@ -14,7 +14,7 @@ class Product {
 }
 
 
-public class q63C_kni34 {
+public class q63A_kni34 {
     public static void main(String[] args) {
         System.out.println("Total Products: "+Product.count);
         Book b1 = new Book("Harry Potter", 350, 23456859);
@@ -35,7 +35,7 @@ public class q63C_kni34 {
     }
 }
 
-class  Book extends Product {
+class Book extends Product {
     int isbn;
     Book(String name, int price, int isbn){
         super(name, price);
@@ -49,6 +49,8 @@ class  Book extends Product {
 
 
 /*
+
+Task for Student
 
 Total Products: 0
 1-------------

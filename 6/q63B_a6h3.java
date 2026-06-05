@@ -1,4 +1,4 @@
-public class q63A_a6h3 {
+public class q63B_a6h3 {
     public static void main(String[] args) {
         Book book = new Book(1, "The Alchemist", 500, "97806", "HarperCollins");
         book.printDetail();
@@ -29,18 +29,18 @@ class Book extends Product {
     String isbn;
     String p;
 
-    Book(int id, String title, int price, String isbn, String p){
+    Book(int id, String title, int price, String isbn, String p) {
         super(id, title, price);
         this.isbn  = isbn;
         this.p = p;
     }
     
-    public void printDetail(){
+    public void printDetail() {
         System.out.println(getIdTitlePrice() + "ISBN: " + isbn + "\nPublisher: " + p); 
     }
 }
 
-class CD extends Product{
+class CD extends Product {
     String band;
     int dur;
     String genre;
@@ -60,6 +60,7 @@ class CD extends Product{
 
 /*
 
+Introducing: 2 child from 1 parent
 Task for Student
 
 ID: 1
