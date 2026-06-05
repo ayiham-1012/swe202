@@ -1,4 +1,4 @@
-public class q62B_a6h4 {
+public class q61C_a6h4 {
     public static void main(String[] args) {
         ComplexNumber cn1 = new ComplexNumber();
         cn1.details();
@@ -41,6 +41,8 @@ class ComplexNumber extends RealNumber {
 
 
 /*
+
+(Task for Student)
 
 RealPart: 1.0
 ImaginaryPart: 1.0

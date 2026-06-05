@@ -35,6 +35,8 @@ class Circle extends Shape {
 
 /*
 
+(for Student)
+
 Name: Mobius Strip
 Color: Blue
 1=======================

@@ -22,6 +22,7 @@ public class q13 {
 /*
 
 KNI Task 4
+# Design Player class
 
 Name of the Player: Ronaldo
 Jersey Number of player: 9

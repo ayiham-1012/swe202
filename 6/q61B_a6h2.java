@@ -1,4 +1,4 @@
-public class q62A_a6h2 {
+public class q61B_a6h2 {
     public static void main(String [] args){
         System.out.println("Total Checking Accounts: "+CheckingAccount.count);
         CheckingAccount c1 = new CheckingAccount();
@@ -36,6 +36,9 @@ class CheckingAccount extends Account {
 
 
 /*
+
+Introducing "static"
+(Instructor can show this one)
 
 Total Checking Accounts: 0
 Account Balance: 0.0

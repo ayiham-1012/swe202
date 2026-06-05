@@ -1,4 +1,4 @@
-public class q61B_a6c2 {
+public class q62A_a6c2 {
     public static void main(String [] args){
         SWEStudent b1 = new SWEStudent();
         SWEStudent b2 = new SWEStudent("REY");
@@ -27,13 +27,15 @@ class Student {         // Parent BluePrint
 }
 
 class SWEStudent extends Student {      // Child BluePrint
-    SWEStudent() {
-        this("idk");
-    }
+
     SWEStudent(String n) {
         super();
         super.setName(n);
         super.setDepartment("SWE");
+    }
+
+    SWEStudent() {
+        this("idk");
     }
 }
 
@@ -41,6 +43,8 @@ class SWEStudent extends Student {      // Child BluePrint
 
 
 /*
+
+Introducing "private" inside Super/Parent Class
 
 Name: idk Department: SWE
 1---------------
