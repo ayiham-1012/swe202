@@ -53,6 +53,53 @@ class Caterpillar {
     }
 }
 
+class Butterfly extends Caterpillar{
+
+    Butterfly(String food, int age){
+        super(food, age);
+        super.energy = 2.5;
+    }
+
+    @Override
+    public void eat(int smth){
+        energy += 2.5;
+        System.out.println("Butterfly lost energy while flying and absorbed nectar");
+    }
+
+    @Override
+    public void transform(){
+        System.out.println("Caterpillar transforms into Butterfly");
+    }
+
+    @Override
+    public void showDetails(){
+        super.showDetails();
+    }
+}
+
+class Moth extends Caterpillar{
+
+    Moth(String food, int age){
+        super(food, age);
+        super.energy = 5.0;
+    }
+
+    @Override
+    public void eat(int smth){
+        energy += 5.0;
+        System.out.println("Moth lost energy due to nocturnal activity");
+    }
+
+    @Override
+    public void transform(){
+        System.out.println("Caterpillar transforms into Moth");
+    }
+
+    @Override
+    public void showDetails(){
+        super.showDetails();
+    }
+}
 
 /*
 

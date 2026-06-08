@@ -8,18 +8,42 @@ public class q61C_a6h4 {
     }
 }
 
+
+
+
 class RealNumber {
     public double realValue;
+
     public RealNumber() {
         this(0.0);
     }
+
     public RealNumber(double realValue) {
         this.realValue = realValue;
     }
-    public String getReal(){
+
+
+    public String getReal() {
         return "RealPart: " + realValue;
     }
 }
+
+
+
+/*
+
+(Task for Student)
+
+RealPart: 1.0
+ImaginaryPart: 1.0
+----------------
+RealPart: 5.0
+ImaginaryPart: 7.0
+
+ */
+
+
+
 
 class ComplexNumber extends RealNumber {
     double complex = 1.0;
@@ -38,16 +62,3 @@ class ComplexNumber extends RealNumber {
     }
 
 }
-
-
-/*
-
-(Task for Student)
-
-RealPart: 1.0
-ImaginaryPart: 1.0
-----------------
-RealPart: 5.0
-ImaginaryPart: 7.0
-
- */

@@ -76,6 +76,7 @@ class Chocolate extends Product{
         System.out.println(oldName + " is now " + name);
     }
 
+    // explicit is better than implicit
     @Override
     public void printDetails(){
         super.printDetails();

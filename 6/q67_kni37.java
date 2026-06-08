@@ -1,3 +1,16 @@
+public class q67_kni37 {
+    public static void main(String[] args) {
+        RealNumber rn1 = new RealNumber(2.69);
+        System.out.println(rn1);
+        System.out.println("----------------");
+        ComplexNumber cn1 = new ComplexNumber();
+        System.out.println(cn1);
+        System.out.println("----------------");
+        ComplexNumber cn2 = new ComplexNumber(5.0, 7.0);
+        System.out.println(cn2);
+    }
+}
+
 class RealNumber {
     public double realValue;
 
@@ -15,18 +28,25 @@ class RealNumber {
     }
 }
 
-public class q67_kni37 {
-    public static void main(String[] args) {
-        RealNumber rn1 = new RealNumber(2.69);
-        System.out.println(rn1);
-        System.out.println("----------------");
-        ComplexNumber cn1 = new ComplexNumber();
-        System.out.println(cn1);
-        System.out.println("----------------");
-        ComplexNumber cn2 = new ComplexNumber(5.0, 7.0);
-        System.out.println(cn2);
+class ComplexNumber extends RealNumber{
+    double comValue;
+
+    ComplexNumber(double realValue, double comValue){
+        super(realValue);
+        this.comValue = comValue;
+    }
+
+    ComplexNumber(){
+        this(1.0, 1.0);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nImaginaryPart: " + comValue;
     }
 }
+
+
 
 /*
 

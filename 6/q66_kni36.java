@@ -33,6 +33,46 @@ public static void main(String args[]) {
     }
 }
 
+class Book extends Product{
+    int isbn;
+
+    Book(String n, int isbn, int p){
+        super(n, p);
+        this.isbn = isbn;
+    }
+
+    public void updateIsbn(int newISBN){
+        isbn = newISBN;
+        System.out.println("ISBN Updated!");
+    }
+
+    @Override
+    public void details(){
+        super.details();
+        System.out.println("ISBN number: "+isbn);
+    }
+}
+
+class EBook extends Book{
+
+    boolean link = false;
+
+    EBook(String n, int isbn, int p, boolean link){
+        super(n, isbn, p);
+        this.link = link;
+    }
+
+    @Override
+    public void details(){
+        String avail;
+            if(link) avail = "true";
+            else     avail = "false";
+
+        super.details();
+        System.out.println("Download Link Available?:"+avail);
+    }
+}
+
 
 /*
 
@@ -52,15 +92,13 @@ ISBN Number: 23456857
 Name: The Little Prince
 Price: 400
 ISBN Number: 2345346
-Download Link Available?:
-false
+Download Link Available?:false
 5-------------
 ISBN Updated!
 6-------------
 Name: The Little Prince
-Download Link Available?:
-false
 Price: 400
 ISBN Number: 23453469
+Download Link Available?:false
 
  */

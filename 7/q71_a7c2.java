@@ -44,6 +44,66 @@ class GameCharacter {
     }
 }
 
+class Warrior extends GameCharacter {
+    int strength;
+    int armor;
+
+    Warrior(String name, int level, int strength, int armor, String weapon){
+        super(name, level, weapon);
+        this.strength = strength;
+        this.armor = armor;
+        GameCharacter.allCharacters[characterCount] = name;        //static does not need "super" :O
+        GameCharacter.characterCount++;
+
+        System.out.println("A new warrior has arrived");
+    }
+
+    public void calculateDamage(){
+        totalDamage = (super.getLevel() * strength) + (armor * 50);
+    }
+
+    @Override
+    public String toString() {
+        this.calculateDamage();
+        String out = "";
+            out += getCharacterInfo() + "\n";
+            out += "Character Type: Warrior\n";
+            out += "Weapon: " + this.weaponType + "\n";
+            out += "Strength: " + this.strength + ", Armor: " + this.armor + "\n";
+            out += "Total Damage: " + this.totalDamage;
+        return out;
+    }
+}
+
+class Mage extends GameCharacter {
+    int intelligence;
+    int mana;
+    Mage(String name, int level, int intelligence, int mana, String weapon){
+        super(name, level, weapon);
+        this.intelligence = intelligence;
+        this.mana = mana;
+        allCharacters[characterCount] = name;
+        characterCount++;
+
+        System.out.println("A new mage came to live");
+    }
+
+    public void calculateDamage(){
+        totalDamage = (super.getLevel() * intelligence) + (mana * 10);
+    }
+
+    @Override
+    public String toString() {
+        this.calculateDamage();
+        String out = "";
+            out += getCharacterInfo() + "\n";
+            out += "Character Type: Mage\n";
+            out += "Weapon: " + this.weaponType + "\n";
+            out += "Intelligence: " + this.intelligence + ", Mana: " + this.mana + "\n";
+            out += "Total Damage: " + this.totalDamage;
+        return out;
+    }
+}
 
 
 /*

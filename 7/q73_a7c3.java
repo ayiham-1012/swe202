@@ -18,7 +18,7 @@ public class q73_a7c3 {
 
 public class Ride {
     private int distance;
-    public Ride(int distance) {
+    public Ride(int distance) {`
         this.distance = distance;
     }
     public double calculateFare() {
