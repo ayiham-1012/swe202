@@ -1,4 +1,4 @@
-public class q85_a8u2 {
+public class q89A_a8u2 {
     public static void main(String[] args) {
         SmartSecurityCamera cam1 = new SmartSecurityCamera("Garden-Cam", 100, 64);
         cam1.powerOn();

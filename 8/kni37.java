@@ -15,7 +15,7 @@ class RealNumber extends Object {
     }
 }
 
-public class q67_kni37 {
+public class kni37 {
     public static void main(String[] args) {
         RealNumber rn1 = new RealNumber(2.69);
         System.out.println(rn1);
@@ -29,6 +29,8 @@ public class q67_kni37 {
 }
 
 /*
+
+*Copy from part 6 again
 
 Introducing: @override toString()
 Introducing: Object class

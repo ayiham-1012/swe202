@@ -73,3 +73,15 @@ git commit -m "Manually fixed the merge conflics 💁‍♀️"
 git reset --hard HEAD
 git clean -xdf (optional)
 git pull
+
+
+
+
+
+
+# merging under the hood
+0. lets say we start at a state, where the last commit was commit0
+1. PC1 makes a commit right after commit0 --> commitA
+2. PC2 makes a commit right after commit0 --> commitB
+3. then you merge these two different commits
+    - so uncommitted stuff cannot be merged 🤷‍♀️
