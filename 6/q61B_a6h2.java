@@ -28,17 +28,18 @@ class CheckingAccount extends Account {
 
     CheckingAccount() {
         this(0.0);
+        count++;
     }
     CheckingAccount(double b) {
         super(b);
+        count++;
     }
 }
 
 
 /*
 
-Introducing "static"
-(Instructor can show this one)
+Introducing: "static"
 
 Total Checking Accounts: 0
 Account Balance: 0.0

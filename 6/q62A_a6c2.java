@@ -12,7 +12,7 @@ public class q62A_a6c2 {
 }
 
 
-class Student {         // Parent BluePrint
+class Student {                         // Parent BluePrint
     private String name = "Just a Student";
     private String department = "no idea";
     public void setDepartment(String dpt) {
@@ -44,7 +44,7 @@ class SWEStudent extends Student {      // Child BluePrint
 
 /*
 
-Introducing "private" inside Super/Parent Class
+Introducing: "private" inside Super/Parent Class
 
 Name: idk Department: SWE
 1---------------

@@ -1,4 +1,4 @@
-public class q64A_a6h5 {
+public class q69_a6h5 {
     public static void main (String args[]){
         CSEStudent.details();
         System.out.println("1--------------");
@@ -73,6 +73,7 @@ class CSEStudent extends Student{
             courses = courses + c + " ";
     }
 
+    @Override
     public void info(){
         System.out.println("Name: " + name);
         System.out.println("ID: " + id);
@@ -82,6 +83,8 @@ class CSEStudent extends Student{
 
 
 /*
+
+Exercise
 
 Total CSE Students: 0
 Available Lab Based Courses: 

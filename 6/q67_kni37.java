@@ -11,7 +11,7 @@ public class q67_kni37 {
     }
 }
 
-class RealNumber {
+class RealNumber extends Object {
     public double realValue;
 
     public RealNumber() {
@@ -51,6 +51,10 @@ class ComplexNumber extends RealNumber{
 /*
 
 Introducing: @override toString()
+Introducing: Object class
+
+    class RealNumber {}                 is the same as
+    class RealNumber extends Object {}
 
 RealPart: 2.69
 ----------------

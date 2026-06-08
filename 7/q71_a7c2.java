@@ -108,9 +108,18 @@ class Mage extends GameCharacter {
 
 /*
 
+Introducing: @override toString()
+Introducing: Object class
+
+    class RealNumber {}                 is the same as
+    class RealNumber extends Object {}
+
+
+
 Damage Calculation Formulas:
 Warrior: (level * strength) + (armor * 50)
 Mage: (level * intelligence) + (mana * 10)
+
 
 
 A new warrior has arrived

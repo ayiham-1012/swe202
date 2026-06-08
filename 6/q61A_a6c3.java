@@ -56,8 +56,7 @@ class Vehicle2010 extends Vehicle {
 
 /*
 
-Introducing "Calling Parent Function"
-(For Student)
+Introducing: "Calling Parent Function"
 
 (0,0)
 (-1,-1)

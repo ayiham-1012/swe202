@@ -1,4 +1,4 @@
-public class q70_a7c1{
+public class q70_a7c1 {
     public static void main(String[] args) {
         Product p1 = new Product("Notebook", 4.99);
         Clothing c1 = new Clothing("T-Shirt", 19.99, "M");

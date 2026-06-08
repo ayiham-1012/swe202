@@ -12,7 +12,7 @@ public class q84_a8u4 {     // RecyclingPlant
     }
 }
 
-//Parent Class
+// Parent Class
 class Waste {
     String id;
     
@@ -21,7 +21,7 @@ class Waste {
     }
 }
 
-//Disjoint Class
+// Disjoint Class
 class SorterBot {
     public void processItem(Waste item) {
         //WRITE YOUR CODE HERE

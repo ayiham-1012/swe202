@@ -51,9 +51,8 @@ class Cow extends Animal {      // Child BluePrint
 
 /*
 
-Introducing Inheritence (1)
-Introducing super() function call
-(Instructor should show this one in class)
+Introducing: Inheritence (1)
+Introducing: super() function call
 
 1-------------
 Legs: 4
