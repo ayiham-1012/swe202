@@ -1,4 +1,4 @@
-public class q80_a8c1 {
+public class q80A_a8c1 {
     public static void main(String[] args){
         Pokemon pikachu = new Pokemon("Pikachu");
         pikachu.attack();

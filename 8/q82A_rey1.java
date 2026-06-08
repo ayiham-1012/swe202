@@ -1,4 +1,4 @@
-public class q81A_rey1 {
+public class q82A_rey1 {
     
     
     

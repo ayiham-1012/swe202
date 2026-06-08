@@ -1,4 +1,4 @@
-public class q81C_a8h1 {
+public class q82C_a8h1 {
     public static void printShout(Student s){
         System.out.println("------------------");
         System.out.println(s.msg);          // Student.msg      --> Student.msg

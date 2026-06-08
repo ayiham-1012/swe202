@@ -1,4 +1,4 @@
-public class q81B_rey2 {
+public class q82B_rey2 {
     public static void printShout(Student s){
         System.out.println("------------------");
         System.out.println(s.msg);

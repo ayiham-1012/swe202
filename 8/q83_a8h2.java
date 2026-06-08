@@ -1,4 +1,4 @@
-public class q82_a8h2 {
+public class q83_a8h2 {
     public static void main(String[] args) {
         CreditCard card1 = new PlatinumCard("Ali", "345 127");
         CreditCard card2 = new SignatureCard("Rahul", "514 123");

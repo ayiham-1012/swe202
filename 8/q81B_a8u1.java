@@ -28,7 +28,7 @@ class Vehicle {
     }
 }
 
-public class q85_a8u1 {
+public class q81B_a8u1 {
     public static void main(String[] args) {
         Garage g = new Garage(2, 3);
         System.out.println("==========0===========");

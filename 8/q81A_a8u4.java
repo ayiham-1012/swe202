@@ -1,4 +1,4 @@
-public class q84_a8u4 {     // RecyclingPlant
+public class q81A_a8u4 {     // RecyclingPlant
     public static void main(String[] args) {
         SorterBot robot = new SorterBot();
         UsedBattery bat1 = new UsedBattery("Duracell-X", true);
