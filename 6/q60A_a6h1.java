@@ -37,6 +37,7 @@ class Animal {                  // Parent BluePrint
 
 class Cow extends Animal {      // Child BluePrint
     String name;
+    protected String protectedShit;
 
     Cow() {
         super();

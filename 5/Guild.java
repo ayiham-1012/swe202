@@ -1,7 +1,8 @@
 public class Guild {
     String name;
-    Hero [] heroes = new Hero[4];       // can't access heroes[4]
     int count = 0;
+    Hero [] heroes = new Hero[4];       // can't access heroes[4]
+        // Guild "has-a" relationship with Hero
 
     Guild(String n){
         name = n;

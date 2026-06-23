@@ -9,6 +9,9 @@ public class Character {
     static int maxH = 0;
     static Character[] arr = new Character[100];
 
+    // the lines above will be executed once in a lifetime.
+    // that is exactly when the program start to run. because they are static
+
     static void printStats(){
         System.out.println("Total Characters: " + total);
         System.out.println("Kids: " + kids);
@@ -22,6 +25,8 @@ public class Character {
     String group;
     int health;
     int id;
+
+    // these 4 lines above will be executed evertime 1 instance of an object gets created from this blueprint
 
     Character(String n, String grp, int h){
         name = n;
