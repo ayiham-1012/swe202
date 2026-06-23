@@ -1,4 +1,4 @@
-public class Movie {
+public class Movie {        // q47B
     String name;
     String genre;
     String dur = "Unknown";

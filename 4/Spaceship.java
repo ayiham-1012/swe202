@@ -1,4 +1,4 @@
-public class Spaceship {
+public class Spaceship {    // q46
     String name;
     int capacity;
     int capLeft;
