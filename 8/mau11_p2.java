@@ -1,4 +1,10 @@
-public class Computer extends Gadget {      // mau12
+public class mau11_p2 {
+    public static int main(String[] args) {
+        return 0;
+    }
+}
+
+class Computer extends Gadget {      // mau11
    String name = "Computer";
 
    public void m3()      {System.out.println(super.name);    m1();}

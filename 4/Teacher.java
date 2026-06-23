@@ -1,4 +1,4 @@
-public class Teacher {          // q47
+public class Teacher {          // q45C
     String name;
     String abb;
     Course [] course = new Course[5];

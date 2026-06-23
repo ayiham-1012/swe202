@@ -1,4 +1,11 @@
-public class Parallelogram extends Quadrilateral {      // mau13
+public class mau13_p2 {
+    public static int main(String[] args) {
+        return 0;
+    }
+}
+
+
+class Parallelogram extends Quadrilateral {      // mau13
     public String name = "Parallelogram";
     
     public void method3() {
